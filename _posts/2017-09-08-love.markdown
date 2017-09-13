@@ -9,4 +9,4 @@ date:   2017-09-08 10:30:12
 
 <blockquote class="blockquote-center">2017年9月9日，于北京</blockquote>
 
-<img align=center width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/8.jpg"/>
+<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/8.jpg"/>
