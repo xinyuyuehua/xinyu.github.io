@@ -3,12 +3,16 @@ title:  "北京"
 subtitle: "Teamlab Beijing "
 author: "yuehua"
 avatar: "img/love.jpg"
-image: "http://ow2dmnlmn.bkt.clouddn.com/2.jpg"
+image: "http://ow2dmnlmn.bkt.clouddn.com/1.jpg"
 date:   2017-09-13 10:30:12
 ---
 
-<blockquote class="blockquote-center">2017年9月9日，于北京</blockquote>
+<blockquote class="blockquote-center">2017年9月9日，北京</blockquote>
 
 <img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/1.jpg"/>
 <img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/2.jpg"/>
 <img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/3.jpg"/>
+<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/4.jpg"/>
+<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/6.jpg"/>
+<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/7.jpg"/>
+<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/8.jpg"/>
