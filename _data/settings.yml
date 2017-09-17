@@ -1,9 +1,9 @@
 title:  "馨予&跃华"
-tagline: "a Jekyll theme"
+tagline: "记录我们的幸福"
 description:
-author:
-  name: "Paul Le"
-  twitter: paululele
+# author:
+#   name: "Paul Le"
+#   twitter: paululele
 
 # Change to true for Disqus comments
 disqus:
