@@ -9,6 +9,6 @@ date:   2017-09-13 10:30:12
 
 <blockquote class="blockquote-center">2017年9月9日，于北京</blockquote>
 
-<img style="zoom:60%" src="http://ow2dmnlmn.bkt.clouddn.com/1.jpg"/>
-<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/2.jpg"/>
-<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/3.jpg"/>
+<img style="zoom:50%" src="http://ow2dmnlmn.bkt.clouddn.com/1.jpg"/>
+<!-- <img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/2.jpg"/>
+<img width="350" height="300" src="http://ow2dmnlmn.bkt.clouddn.com/3.jpg"/> -->
