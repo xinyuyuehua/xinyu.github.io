@@ -17,7 +17,7 @@ gulp.task('resize', function () {
 });
 
 gulp.task('del', ['resize'], function () {
-    return del(['images/*.*']);
+    return del(['ow2dmnlmn.bkt.clouddn.com']);
 });
 
 gulp.task('default', ['del']);
