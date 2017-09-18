@@ -1,65 +1,39 @@
-# Forty - Jekyll Theme
+# Photography
+A jekyll website for photographers
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+## Highlights
+1. Easy setup and you get a site of your own for __free__.
+2. To add new pictures, you need to just upload them. __No code__ changes required.
+3. This I like the most, you get to see EXIF data like __aperture, shutter speed, iso__ etc when you click on any image automagically.
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+## Quick Start
+If you know a tad about tech and love taking pictures then this open-source project may help you setup a website to showcase
+all your creations without effort. And not just that, with this you need not pay a single dime to host your website as
+it's hosted by GitHub for __free__.
 
-# How to Use
+**Just follow the below steps and your website would be live in no time:**
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+1. Fork this repo by hitting the `Fork` button at the top right corner.
+2. Enable github pages from the repo settings.
+3. Upload your pictures to `images/fulls` and `images/thumbs` directory. _You can do that on github.com itself or you can clone and push the images to your repo._
+4. Add your own custom domain in `CNAME` file or just remove the file if you don't own a domain and use the default domain that github provides ([yourusername].github.io/photography).
+5. Update `baseurl` field in `_config.yml` file with whatever domain you used in step 4.
+6. And that's it, your website is set. To view, go to [photography.ramswaroop.me](http://photography.ramswaroop.me) (or whatever you have in the CNAME file) and if you don't have one, you can go to [[yourusername].github.io/photography](http://yourusername.github.io/photography)
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
+And of course, you don't want my name at the bottom to show up. You can change it in `_config.yml` file as well as few other settings like your google analytics etc.
+ 
+## ProTips
+I have made this as an [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
+and thumbnail generation__. So if you're lazy like me then you can just do the following before you push your images to github.
 
-# Added Features
+1. Fork and then clone the project to your computer
+2. Go inside the project `$ cd photography`
+3. Install all dependencies by `$ npm install`
+4. Copy all your pictures (possibly jpg, the largest size available, straight from your camera) and put it inside `images` directory
+5. Run `$ gulp` to resize the images and to generate thumbnails automatically
+6. Push your changes to github.com by `$ git commit -am "a nice commit message"` and then `$ git push origin master`
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
-
-# Credits
-
-Original README from HTML5 UP:
-
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+## Credits
+Thanks to [AJ](https://twitter.com/ajlkn) for the website template which I enhanced for [jekyll](http://jekyllrb.com/).
 
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
-
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
