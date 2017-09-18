@@ -18,3 +18,8 @@ title:		     "{{ site.data.settings.title }} | {{ site.data.settings.tagline }}"
 sass:
   sass_dir: assets/css
   style: :nested
+  # Specify the date when the site was setup
+  since: 2017
+
+  # icon between year and author @Footer
+  authoricon: heart
