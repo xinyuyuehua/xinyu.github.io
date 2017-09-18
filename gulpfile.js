@@ -3,17 +3,17 @@ var imageResize = require('gulp-image-resize');
 var del = require('del');
 
 gulp.task('resize', function () {
-    return gulp.src('images/*.*')
+    return gulp.src('ow2dmnlmn.bkt.clouddn.com')
         .pipe(imageResize({
             width: 1024,
             imageMagick: true
         }))
-        .pipe(gulp.dest('images/fulls'))
+        .pipe(gulp.dest('ow2dmnlmn.bkt.clouddn.com'))
         .pipe(imageResize({
             width: 512,
             imageMagick: true
         }))
-        .pipe(gulp.dest('images/thumbs'));
+        .pipe(gulp.dest('ow2dmnlmn.bkt.clouddn.com'));
 });
 
 gulp.task('del', ['resize'], function () {
