@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'github-pages'
+group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "octopress-autoprefixer"
+end

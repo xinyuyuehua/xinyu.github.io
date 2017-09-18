@@ -1,33 +1,22 @@
 {
-  "name": "photography",
-  "version": "2.0.3",
-  "description": "A jekyll website for photographer cum developer",
-  "main": "npmfile.js",
+  "name": "cartwheel-jekyll",
+  "version": "1.0.0",
+  "description": "Cartwheel is a responsive blog theme for Jekyll built using HTML, Sass, and jQuery with a clean and modern design.",
+  "main": "gulpfile.js",
+  "homepage": "https://themeforest.net/item/cartwheel-a-simple-clean-portfolio-theme-for-jekyll/19438322",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ramswaroop/photography.git"
+    "start": "gulp"
   },
   "keywords": [
-    "photography",
     "jekyll",
-    "website",
-    "template",
-    "website template",
-    "portfolio",
-    "portfolio website"
+    "blog"
   ],
-  "author": "Ram Patra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ramswaroop/photography/issues"
-  },
-  "homepage": "https://github.com/ramswaroop/photography#readme",
+  "author": "Thomas Vaeth <thomas.vaeth@gmail.com> (http://thomasvaeth.com/)",
   "devDependencies": {
-    "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-image-resize": "^0.12.0"
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-comments": "^2.4.3",
+    "gulp-uglify": "^2.0.1"
   }
 }

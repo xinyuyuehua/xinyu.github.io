@@ -1,90 +1,81 @@
 ---
 layout: default
 ---
+<section class="mast">
+  <header class="mast__header">
+    <h1>Holly Gibney</h1>
+    <span>Freelance Designer and Photographer</span>
+  </header>
+  <div class="mast__img bg-grey">
+    <div class="absolute-bg" style="background-image: url('/assets/images/mast-left.jpg');"></div>
+  </div>
+  <div class="mast__img bg-alpha">
+    <div class="absolute-bg" style="background-image: url('/assets/images/mast-right.jpg');"></div>
+  </div>
+</section>
 
-<!-- Wrapper -->
-<div id="wrapper">
-
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="index.html"><strong>Photography</strong> by Ram Patra</a></h1>
-        <nav>
-            <ul>
-                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main -->
-    <div id="main">
-        {% for image in site.static_files %}
-            {% if image.path contains 'fulls' %}
-                <article class="thumb">
-                    <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                    <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt="" data-name="{{ image.name }}"/></a>
-                    <!--<h2></h2>
-                    <p></p>-->
-                </article>
-            {% endif %}
-        {% endfor %}
+<section id="about" class="section-padding bg-grey">
+  <div class="grid">
+    <h1 class="section-header">About</h1>
+    <div class="about">
+      <p class="about__text wow fadeInUp" data-wow-delay="300ms">Fixie quinoa hot chicken, 8-bit tousled jianbing portland yr truffaut beard. Dreamcatcher ethical brunch authentic kale chips. Hell of raclette tumblr, organic kinfolk locavore occupy gastropub pinterest. Ramps squid la croix, chicharrones gochujang fixie try-hard bitters.</p>
     </div>
+    <div id="instafetch" class="container-triple"></div>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer id="footer" class="panel">
-        <div class="inner split">
-            <div>
-                <section>
-                    <h2>Hey there, my name is Ram</h2>
-                    <p>{{ site.bio }}</p>
-                    <p>{{ site.publicise }}</p>
-                </section>
-                <section>
-                    <h2>Follow me on ...</h2>
-                    <ul class="icons">
-                        <li><a href="{{ site.social_urls.facebook }}" class="icon fa-facebook"><span
-                                class="label">Facebook</span></a>
-                        </li>
-                        <li><a href="{{ site.social_urls.twitter }}" class="icon fa-twitter"><span
-                                class="label">Twitter</span></a>
-                        </li>
-                        <li><a href="{{ site.social_urls.instagram }}" class="icon fa-instagram"><span
-                                class="label">Instagram</span></a>
-                        </li>
-                        <li><a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble"><span
-                                class="label">Dribbble</span></a>
-                        </li>
-                        <li><a href="{{ site.social_urls.github }}" class="icon fa-github"><span
-                                class="label">GitHub</span></a>
-                        </li>
-                        <li><a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin"><span
-                                class="label">LinkedIn</span></a>
-                        </li>
-                    </ul>
-                </section>
-                <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
-                </p>
+<section id="portfolio" class="section-padding bg-alpha">
+  <div class="grid--double">
+    <h1 class="section-header">Portfolio</h1>
+    <div class="portfolio-carousel owl-carousel wow fadeIn">
+      <div>
+        <figure>
+          <img src="/assets/images/portfolio-1.png" alt="Portfolio Item"/>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="/assets/images/portfolio-2.png" alt="Portfolio Item"/>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="/assets/images/portfolio-3.png" alt="Portfolio Item"/>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blog" class="section-padding bg-white">
+  <div class="grid">
+    <h1 class="section-header">Blog</h1>
+    <ul class="container-double" itemscope itemtype="http://schema.org/Blog">
+      {% for post in site.posts limit:6 %}
+        <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+            <div class="preview__img bg-grey wow slideInUp">
+              <figure class="absolute-bg wow fadeIn" data-wow-delay="900ms" style="background-image: url('{{ post.image }}');"></figure>
             </div>
-            <div>
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="field half first">
-                            <input type="text" name="name" id="name" placeholder="Name"/>
-                        </div>
-                        <div class="field half">
-                            <input type="text" name="email" id="email" placeholder="Email"/>
-                        </div>
-                        <div class="field">
-                            <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send" class="special"/></li>
-                            <li><input type="reset" value="Reset"/></li>
-                        </ul>
-                    </form>
-                </section>
+            <div class="preview__container bg-white">
+              <div>
+                <h2 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ post.title }}</h2>
+                <p class="preview__excerpt wow fadeInUp" data-wow-delay="300ms" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+              </div>
+              <time class="preview__date wow fadeInUp" data-wow-delay="450ms" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
             </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="container-btn">
+      <a class="btn" href="/archive">
+        <div>
+          <span>Read More</span>
+          <span>Read More</span>
         </div>
-    </footer>
-</div>
+      </a>
+    </div>
+  </div>
+</section>

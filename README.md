@@ -1,39 +1,85 @@
-# Photography
-A jekyll website for photographers
+# 🤸‍ – A Blog Theme for Jekyll
+Cartwheel is a blog theme for Jekyll built using HTML, Sass, and jQuery. External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Instafetch.js, Owl Carousel 2, Smooth Scroll, and WOW.js.
 
-## Highlights
-1. Easy setup and you get a site of your own for __free__.
-2. To add new pictures, you need to just upload them. __No code__ changes required.
-3. This I like the most, you get to see EXIF data like __aperture, shutter speed, iso__ etc when you click on any image automagically.
+## Installation
+All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already).
 
-## Quick Start
-If you know a tad about tech and love taking pictures then this open-source project may help you setup a website to showcase
-all your creations without effort. And not just that, with this you need not pay a single dime to host your website as
-it's hosted by GitHub for __free__.
+## Edit Theme
+I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
 
-**Just follow the below steps and your website would be live in no time:**
+### _config.yml
 
-1. Fork this repo by hitting the `Fork` button at the top right corner.
-2. Enable github pages from the repo settings.
-3. Upload your pictures to `images/fulls` and `images/thumbs` directory. _You can do that on github.com itself or you can clone and push the images to your repo._
-4. Add your own custom domain in `CNAME` file or just remove the file if you don't own a domain and use the default domain that github provides ([yourusername].github.io/photography).
-5. Update `baseurl` field in `_config.yml` file with whatever domain you used in step 4.
-6. And that's it, your website is set. To view, go to [photography.ramswaroop.me](http://photography.ramswaroop.me) (or whatever you have in the CNAME file) and if you don't have one, you can go to [[yourusername].github.io/photography](http://yourusername.github.io/photography)
+#### Site Settings
+    baseurl: ""
 
-And of course, you don't want my name at the bottom to show up. You can change it in `_config.yml` file as well as few other settings like your google analytics etc.
- 
-## ProTips
-I have made this as an [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
-and thumbnail generation__. So if you're lazy like me then you can just do the following before you push your images to github.
+* ````baseurl```` - Path of blog if adding this on to another website
 
-1. Fork and then clone the project to your computer
-2. Go inside the project `$ cd photography`
-3. Install all dependencies by `$ npm install`
-4. Copy all your pictures (possibly jpg, the largest size available, straight from your camera) and put it inside `images` directory
-5. Run `$ gulp` to resize the images and to generate thumbnails automatically
-6. Push your changes to github.com by `$ git commit -am "a nice commit message"` and then `$ git push origin master`
+#### Color Settings
+    color_alpha: feeaeb
+    color_beta: 05009e
 
-## Credits
-Thanks to [AJ](https://twitter.com/ajlkn) for the website template which I enhanced for [jekyll](http://jekyllrb.com/).
+* ````color_alpha```` - Main color
+* ````color_beta```` - Secondary color
+
+#### Google Analytics
+    google_analytics: UA—XXXXXXXX-X
+
+* ````google_analytics```` - Option field to replace with correct Google Analytics code
+
+#### Instagram API
+    instagram_key: 
+    instagram_caption: 
+
+* ````instagram_key```` - See [Instafetch.js docs](http://thomasvaeth.com/instafetch.js/) for API key information
+* ````instagram_caption```` - true or false to display Instagram captions
+
+#### SEO Settings
+    title: 
+    description: 
+    url: ""
+    email:
+    twitter_username: 
+    default_img: 
+
+* ````title```` - Title of blog
+* ````description```` - Description of blog (recommended to not go over 160 characters)
+* ````url```` - URL of main website
+* ````email```` - Email address
+* ````twitter_username```` - Twitter username
+* ````default_img```` - Image that will appear when posting links on social networks
+
+#### Profile Settings
+    name:  
+    social:
+      github: 
+
+* ````name```` - Full name for SEO purposes
+* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
 
 
+#### Build Settings
+    exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
+    permalink: /:year/:month/:day/:title/
+
+* ````include```` - Folders that are not automatically included in Jekyll
+* ````exclude```` - Folders that are excluded from `_site`
+* ````permalink```` - URL structure of blog posts
+
+### _posts
+    ---
+    layout: post
+    title: ""
+    date: 
+    categories:
+    description: 
+    image: 
+    image-sm:
+    ---
+
+This is the YAML front matter block for blog posts.
+* ````layout```` - This field will always be post
+* ````title```` - The title of the blog post
+* ````date```` - The date that will appear on the blog post
+* ````tags```` - Optional field that can be entered as an array or a list
+* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
+* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
