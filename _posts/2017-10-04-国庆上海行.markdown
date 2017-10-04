@@ -5,5 +5,20 @@ date: 2017-10-04
 tags:
   - travelling
 description: 
-image: /assets/images/placeholders/102.jpg
+image: /assets/images/placeholders/101.jpg
 ---
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/shanghai102.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/shanghai103.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/shanghai104.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/shanghai105.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/shanghai106.jpg" alt="Placeholder"/>
+</figure>
