@@ -1,9 +1,0 @@
----
-layout: post
-title: "十一上海行"
-date: 2017-10-04
-tags:
-  - Scenester
-  - Selfies 
-description: 
-image: http://ow2dmnlmn.bkt.clouddn.com/shanghai101.jpg
