@@ -6,4 +6,5 @@ tags:
   - Scenester
   - Selfies 
 description: 
-image: http://ow2dmnlmn.bkt.clouddn.com/shanghai101.jpg
+image: 101.jpg
+---
