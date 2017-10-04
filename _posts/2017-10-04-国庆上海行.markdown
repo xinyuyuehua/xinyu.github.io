@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "十一上海行"
+title: "国庆上海行"
 date: 2017-10-04
 tags:
-  - Scenester
-  - Selfies 
+  - travelling
 description: 
-image: 101.jpg
+image: /assets/images/placeholders/101.jpg
 ---
