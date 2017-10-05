@@ -5,7 +5,7 @@ date: 2016-12-31
 tags:
   - life
 description: 
-image: /assets/images/placeholders/1692.jpg
+image: /assets/images/placeholders/16121.jpg
 ---
 <figure>
   <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216122.jpg" alt="Placeholder"/>
