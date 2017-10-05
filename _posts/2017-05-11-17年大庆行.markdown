@@ -1,0 +1,24 @@
+---
+layout: post
+title: "2017年5月大庆行"
+date: 2017-05-11
+tags:
+  - travelling
+description: 
+image: /assets/images/placeholders/201656.jpg
+---
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/daqing201751.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/daqing201752.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/daqing201753.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/daqing201754.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/daqing201755.jpg" alt="Placeholder"/>
+</figure>
