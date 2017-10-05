@@ -1,0 +1,33 @@
+---
+layout: post
+title: "16年北京的冬天"
+date: 2016-12-31
+tags:
+  - life
+description: 
+image: /assets/images/placeholders/16121.jpg
+---
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216122.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216123.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216124.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216125.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216126.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216127.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216128.jpg" alt="Placeholder"/>
+</figure>
+<figure>
+  <img src="http://ow2dmnlmn.bkt.clouddn.com/beijing161216129.jpg" alt="Placeholder"/>
+</figure>
