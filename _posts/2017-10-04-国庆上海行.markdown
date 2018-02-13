@@ -5,7 +5,7 @@ date: 2017-10-04
 tags:
   - travelling
 description: 
-image: /assets/images/placeholders/101.jpg
+image: http://ow2dmnlmn.bkt.clouddn.com/17sh2.jpg
 ---
 <figure>
   <img src="http://ow2dmnlmn.bkt.clouddn.com/shanghai102.jpg" alt="Placeholder"/>
